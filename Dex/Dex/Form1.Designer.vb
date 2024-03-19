@@ -41,6 +41,10 @@ Partial Class Form1
         Me.NewToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SaveToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
+        Me.PrevButton = New System.Windows.Forms.Button()
+        Me.NextButton = New System.Windows.Forms.Button()
+        Me.LastButton = New System.Windows.Forms.Button()
+        Me.FirstButton = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -56,11 +60,11 @@ Partial Class Form1
         '
         'Field6
         '
-        Me.Field6.Font = New System.Drawing.Font("Lucida Console", 25.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Field6.Font = New System.Drawing.Font("Lucida Console", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Field6.ForeColor = System.Drawing.Color.Coral
         Me.Field6.Location = New System.Drawing.Point(176, 360)
         Me.Field6.Name = "Field6"
-        Me.Field6.Size = New System.Drawing.Size(331, 50)
+        Me.Field6.Size = New System.Drawing.Size(331, 30)
         Me.Field6.TabIndex = 1
         Me.Field6.Text = "CheeseFlan"
         Me.Field6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -206,18 +210,54 @@ Partial Class Form1
         'NewToolStripMenuItem
         '
         Me.NewToolStripMenuItem.Name = "NewToolStripMenuItem"
-        Me.NewToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.NewToolStripMenuItem.Size = New System.Drawing.Size(123, 26)
         Me.NewToolStripMenuItem.Text = "New"
         '
         'SaveToolStripMenuItem
         '
         Me.SaveToolStripMenuItem.Name = "SaveToolStripMenuItem"
-        Me.SaveToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.SaveToolStripMenuItem.Size = New System.Drawing.Size(123, 26)
         Me.SaveToolStripMenuItem.Text = "Save"
         '
         'OpenFileDialog1
         '
         Me.OpenFileDialog1.FileName = "OpenFileDialog1"
+        '
+        'PrevButton
+        '
+        Me.PrevButton.Location = New System.Drawing.Point(37, 161)
+        Me.PrevButton.Name = "PrevButton"
+        Me.PrevButton.Size = New System.Drawing.Size(75, 23)
+        Me.PrevButton.TabIndex = 16
+        Me.PrevButton.Text = "Previous"
+        Me.PrevButton.UseVisualStyleBackColor = True
+        '
+        'NextButton
+        '
+        Me.NextButton.Location = New System.Drawing.Point(37, 132)
+        Me.NextButton.Name = "NextButton"
+        Me.NextButton.Size = New System.Drawing.Size(75, 23)
+        Me.NextButton.TabIndex = 17
+        Me.NextButton.Text = "Next"
+        Me.NextButton.UseVisualStyleBackColor = True
+        '
+        'LastButton
+        '
+        Me.LastButton.Location = New System.Drawing.Point(37, 190)
+        Me.LastButton.Name = "LastButton"
+        Me.LastButton.Size = New System.Drawing.Size(75, 23)
+        Me.LastButton.TabIndex = 18
+        Me.LastButton.Text = "Last"
+        Me.LastButton.UseVisualStyleBackColor = True
+        '
+        'FirstButton
+        '
+        Me.FirstButton.Location = New System.Drawing.Point(37, 103)
+        Me.FirstButton.Name = "FirstButton"
+        Me.FirstButton.Size = New System.Drawing.Size(75, 23)
+        Me.FirstButton.TabIndex = 15
+        Me.FirstButton.Text = "First"
+        Me.FirstButton.UseVisualStyleBackColor = True
         '
         'Form1
         '
@@ -225,6 +265,10 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Dex.My.Resources.Resources.black_abstract_ink_texture_watercolor_paper_231311_2
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.LastButton)
+        Me.Controls.Add(Me.NextButton)
+        Me.Controls.Add(Me.FirstButton)
+        Me.Controls.Add(Me.PrevButton)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Field5)
         Me.Controls.Add(Me.Field7)
@@ -270,4 +314,8 @@ Partial Class Form1
     Friend WithEvents NewToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SaveToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents OpenFileDialog1 As OpenFileDialog
+    Friend WithEvents PrevButton As Button
+    Friend WithEvents NextButton As Button
+    Friend WithEvents LastButton As Button
+    Friend WithEvents FirstButton As Button
 End Class
