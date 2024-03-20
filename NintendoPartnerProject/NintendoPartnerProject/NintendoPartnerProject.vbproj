@@ -128,5 +128,23 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cool Text - NES 454283385759727.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cool Text - Snes 454283406246812.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cooltext454283430746308.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cooltext454283551758443.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cooltext454283594407356.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cool Text - NintendoWii 454283760655220.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
