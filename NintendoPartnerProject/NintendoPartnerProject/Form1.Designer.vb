@@ -22,113 +22,113 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.button_nes = New System.Windows.Forms.Button()
+        Me.button_snes = New System.Windows.Forms.Button()
+        Me.button_n64 = New System.Windows.Forms.Button()
+        Me.button_gc = New System.Windows.Forms.Button()
+        Me.button_wii = New System.Windows.Forms.Button()
+        Me.button_Checkout = New System.Windows.Forms.Button()
+        Me.PB_conslogo = New System.Windows.Forms.PictureBox()
+        Me.PB_consDisplay = New System.Windows.Forms.PictureBox()
+        Me.label_flavor = New System.Windows.Forms.Label()
+        Me.label_consDescription = New System.Windows.Forms.Label()
+        CType(Me.PB_conslogo, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PB_consDisplay, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'Button1
+        'button_nes
         '
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Location = New System.Drawing.Point(12, 12)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(114, 59)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "NES"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.button_nes.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.button_nes.Location = New System.Drawing.Point(12, 12)
+        Me.button_nes.Name = "button_nes"
+        Me.button_nes.Size = New System.Drawing.Size(114, 59)
+        Me.button_nes.TabIndex = 0
+        Me.button_nes.Text = "NES"
+        Me.button_nes.UseVisualStyleBackColor = True
         '
-        'Button2
+        'button_snes
         '
-        Me.Button2.Location = New System.Drawing.Point(12, 77)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(114, 59)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "SNES"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.button_snes.Location = New System.Drawing.Point(12, 77)
+        Me.button_snes.Name = "button_snes"
+        Me.button_snes.Size = New System.Drawing.Size(114, 59)
+        Me.button_snes.TabIndex = 1
+        Me.button_snes.Text = "SNES"
+        Me.button_snes.UseVisualStyleBackColor = True
         '
-        'Button3
+        'button_n64
         '
-        Me.Button3.Location = New System.Drawing.Point(12, 142)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(114, 59)
-        Me.Button3.TabIndex = 2
-        Me.Button3.Text = "N64"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.button_n64.Location = New System.Drawing.Point(12, 142)
+        Me.button_n64.Name = "button_n64"
+        Me.button_n64.Size = New System.Drawing.Size(114, 59)
+        Me.button_n64.TabIndex = 2
+        Me.button_n64.Text = "N64"
+        Me.button_n64.UseVisualStyleBackColor = True
         '
-        'Button4
+        'button_gc
         '
-        Me.Button4.Location = New System.Drawing.Point(12, 207)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(114, 59)
-        Me.Button4.TabIndex = 3
-        Me.Button4.Text = "GC"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.button_gc.Location = New System.Drawing.Point(12, 207)
+        Me.button_gc.Name = "button_gc"
+        Me.button_gc.Size = New System.Drawing.Size(114, 59)
+        Me.button_gc.TabIndex = 3
+        Me.button_gc.Text = "GC"
+        Me.button_gc.UseVisualStyleBackColor = True
         '
-        'Button5
+        'button_wii
         '
-        Me.Button5.Location = New System.Drawing.Point(12, 272)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(114, 59)
-        Me.Button5.TabIndex = 4
-        Me.Button5.Text = "WII"
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.button_wii.Location = New System.Drawing.Point(12, 272)
+        Me.button_wii.Name = "button_wii"
+        Me.button_wii.Size = New System.Drawing.Size(114, 59)
+        Me.button_wii.TabIndex = 4
+        Me.button_wii.Text = "WII"
+        Me.button_wii.UseVisualStyleBackColor = True
         '
-        'Button7
+        'button_Checkout
         '
-        Me.Button7.Location = New System.Drawing.Point(219, 346)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(199, 92)
-        Me.Button7.TabIndex = 10
-        Me.Button7.Text = "Checkout"
-        Me.Button7.UseVisualStyleBackColor = True
+        Me.button_Checkout.Location = New System.Drawing.Point(219, 346)
+        Me.button_Checkout.Name = "button_Checkout"
+        Me.button_Checkout.Size = New System.Drawing.Size(199, 92)
+        Me.button_Checkout.TabIndex = 10
+        Me.button_Checkout.Text = "Checkout"
+        Me.button_Checkout.UseVisualStyleBackColor = True
         '
-        'PictureBox1
+        'PB_conslogo
         '
-        Me.PictureBox1.BackColor = System.Drawing.Color.DarkGray
-        Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox1.Image = Global.NintendoPartnerProject.My.Resources.Resources.Cool_Text___Snes_454283406246812
-        Me.PictureBox1.Location = New System.Drawing.Point(504, 12)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(293, 124)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 11
-        Me.PictureBox1.TabStop = False
+        Me.PB_conslogo.BackColor = System.Drawing.Color.DarkGray
+        Me.PB_conslogo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.PB_conslogo.Image = Global.NintendoPartnerProject.My.Resources.Resources.Cool_Text___Snes_454283406246812
+        Me.PB_conslogo.Location = New System.Drawing.Point(504, 12)
+        Me.PB_conslogo.Name = "PB_conslogo"
+        Me.PB_conslogo.Size = New System.Drawing.Size(293, 124)
+        Me.PB_conslogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PB_conslogo.TabIndex = 11
+        Me.PB_conslogo.TabStop = False
         '
-        'PictureBox2
+        'PB_consDisplay
         '
-        Me.PictureBox2.Location = New System.Drawing.Point(148, 12)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(341, 277)
-        Me.PictureBox2.TabIndex = 6
-        Me.PictureBox2.TabStop = False
+        Me.PB_consDisplay.Location = New System.Drawing.Point(148, 12)
+        Me.PB_consDisplay.Name = "PB_consDisplay"
+        Me.PB_consDisplay.Size = New System.Drawing.Size(341, 277)
+        Me.PB_consDisplay.TabIndex = 6
+        Me.PB_consDisplay.TabStop = False
         '
-        'Label1
+        'label_flavor
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(203, 306)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(215, 16)
-        Me.Label1.TabIndex = 12
-        Me.Label1.Text = "ONLY 50 REMAIN! MUST HURRY!"
+        Me.label_flavor.AutoSize = True
+        Me.label_flavor.Location = New System.Drawing.Point(203, 306)
+        Me.label_flavor.Name = "label_flavor"
+        Me.label_flavor.Size = New System.Drawing.Size(215, 16)
+        Me.label_flavor.TabIndex = 12
+        Me.label_flavor.Text = "ONLY 50 REMAIN! MUST HURRY!"
         '
-        'Label2
+        'label_consDescription
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(500, 142)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(298, 120)
-        Me.Label2.TabIndex = 13
-        Me.Label2.Text = "PLACEHOLDER PLACEHOLDER " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "PLACEHOLDER PLACEHOLDER" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "PLACEHOLDER PLACEHOLDER" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "PLACE" &
+        Me.label_consDescription.AutoSize = True
+        Me.label_consDescription.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.label_consDescription.Location = New System.Drawing.Point(500, 146)
+        Me.label_consDescription.Name = "label_consDescription"
+        Me.label_consDescription.Size = New System.Drawing.Size(298, 120)
+        Me.label_consDescription.TabIndex = 13
+        Me.label_consDescription.Text = "PLACEHOLDER PLACEHOLDER " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "PLACEHOLDER PLACEHOLDER" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "PLACEHOLDER PLACEHOLDER" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "PLACE" &
     "HOLDER PLACEHOLDER" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "PLACEHOLDER PLACEHOLDER"
         '
         'Form1
@@ -138,33 +138,33 @@ Partial Class Form1
         Me.BackgroundImage = Global.NintendoPartnerProject.My.Resources.Resources.dark_4487690_1280
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.Button7)
-        Me.Controls.Add(Me.PictureBox2)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.label_consDescription)
+        Me.Controls.Add(Me.label_flavor)
+        Me.Controls.Add(Me.PB_conslogo)
+        Me.Controls.Add(Me.button_Checkout)
+        Me.Controls.Add(Me.PB_consDisplay)
+        Me.Controls.Add(Me.button_wii)
+        Me.Controls.Add(Me.button_gc)
+        Me.Controls.Add(Me.button_n64)
+        Me.Controls.Add(Me.button_snes)
+        Me.Controls.Add(Me.button_nes)
         Me.Name = "Form1"
         Me.Text = "Form1"
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PB_conslogo, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PB_consDisplay, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button5 As Button
-    Friend WithEvents PictureBox2 As PictureBox
-    Friend WithEvents Button7 As Button
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
+    Friend WithEvents button_nes As Button
+    Friend WithEvents button_snes As Button
+    Friend WithEvents button_n64 As Button
+    Friend WithEvents button_gc As Button
+    Friend WithEvents button_wii As Button
+    Friend WithEvents PB_consDisplay As PictureBox
+    Friend WithEvents button_Checkout As Button
+    Friend WithEvents PB_conslogo As PictureBox
+    Friend WithEvents label_flavor As Label
+    Friend WithEvents label_consDescription As Label
 End Class
