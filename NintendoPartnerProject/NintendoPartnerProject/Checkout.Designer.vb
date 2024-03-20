@@ -22,132 +22,132 @@ Partial Class Checkout
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox4 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox5 = New System.Windows.Forms.CheckBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.label_TItle = New System.Windows.Forms.Label()
+        Me.PB_Console = New System.Windows.Forms.PictureBox()
+        Me.label_Price = New System.Windows.Forms.Label()
+        Me.CB_used = New System.Windows.Forms.CheckBox()
+        Me.CB_addGame = New System.Windows.Forms.CheckBox()
+        Me.CB_addController = New System.Windows.Forms.CheckBox()
+        Me.CB_refurbished = New System.Windows.Forms.CheckBox()
+        Me.CH_HDMI = New System.Windows.Forms.CheckBox()
+        Me.button_lastCheckout = New System.Windows.Forms.Button()
+        CType(Me.PB_Console, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'Label1
+        'label_TItle
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 30.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(236, 14)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(237, 58)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Checkout"
+        Me.label_TItle.AutoSize = True
+        Me.label_TItle.Font = New System.Drawing.Font("Microsoft Sans Serif", 30.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.label_TItle.Location = New System.Drawing.Point(236, 14)
+        Me.label_TItle.Name = "label_TItle"
+        Me.label_TItle.Size = New System.Drawing.Size(237, 58)
+        Me.label_TItle.TabIndex = 0
+        Me.label_TItle.Text = "Checkout"
         '
-        'PictureBox1
+        'PB_Console
         '
-        Me.PictureBox1.Location = New System.Drawing.Point(43, 97)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(213, 158)
-        Me.PictureBox1.TabIndex = 1
-        Me.PictureBox1.TabStop = False
+        Me.PB_Console.Location = New System.Drawing.Point(43, 97)
+        Me.PB_Console.Name = "PB_Console"
+        Me.PB_Console.Size = New System.Drawing.Size(213, 158)
+        Me.PB_Console.TabIndex = 1
+        Me.PB_Console.TabStop = False
         '
-        'Label2
+        'label_Price
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(121, 276)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(48, 16)
-        Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Label2"
+        Me.label_Price.AutoSize = True
+        Me.label_Price.Location = New System.Drawing.Point(121, 276)
+        Me.label_Price.Name = "label_Price"
+        Me.label_Price.Size = New System.Drawing.Size(48, 16)
+        Me.label_Price.TabIndex = 2
+        Me.label_Price.Text = "Label2"
         '
-        'CheckBox1
+        'CB_used
         '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(376, 144)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(62, 20)
-        Me.CheckBox1.TabIndex = 5
-        Me.CheckBox1.Text = "Used"
-        Me.CheckBox1.UseVisualStyleBackColor = True
+        Me.CB_used.AutoSize = True
+        Me.CB_used.Location = New System.Drawing.Point(376, 144)
+        Me.CB_used.Name = "CB_used"
+        Me.CB_used.Size = New System.Drawing.Size(62, 20)
+        Me.CB_used.TabIndex = 5
+        Me.CB_used.Text = "Used"
+        Me.CB_used.UseVisualStyleBackColor = True
         '
-        'CheckBox2
+        'CB_addGame
         '
-        Me.CheckBox2.AutoSize = True
-        Me.CheckBox2.Location = New System.Drawing.Point(479, 144)
-        Me.CheckBox2.Name = "CheckBox2"
-        Me.CheckBox2.Size = New System.Drawing.Size(129, 20)
-        Me.CheckBox2.TabIndex = 6
-        Me.CheckBox2.Text = "Additional Game"
-        Me.CheckBox2.UseVisualStyleBackColor = True
+        Me.CB_addGame.AutoSize = True
+        Me.CB_addGame.Location = New System.Drawing.Point(479, 144)
+        Me.CB_addGame.Name = "CB_addGame"
+        Me.CB_addGame.Size = New System.Drawing.Size(129, 20)
+        Me.CB_addGame.TabIndex = 6
+        Me.CB_addGame.Text = "Additional Game"
+        Me.CB_addGame.UseVisualStyleBackColor = True
         '
-        'CheckBox4
+        'CB_addController
         '
-        Me.CheckBox4.AutoSize = True
-        Me.CheckBox4.Location = New System.Drawing.Point(479, 170)
-        Me.CheckBox4.Name = "CheckBox4"
-        Me.CheckBox4.Size = New System.Drawing.Size(149, 20)
-        Me.CheckBox4.TabIndex = 7
-        Me.CheckBox4.Text = "Additional Controller"
-        Me.CheckBox4.UseVisualStyleBackColor = True
+        Me.CB_addController.AutoSize = True
+        Me.CB_addController.Location = New System.Drawing.Point(479, 170)
+        Me.CB_addController.Name = "CB_addController"
+        Me.CB_addController.Size = New System.Drawing.Size(149, 20)
+        Me.CB_addController.TabIndex = 7
+        Me.CB_addController.Text = "Additional Controller"
+        Me.CB_addController.UseVisualStyleBackColor = True
         '
-        'CheckBox3
+        'CB_refurbished
         '
-        Me.CheckBox3.AutoSize = True
-        Me.CheckBox3.Location = New System.Drawing.Point(376, 170)
-        Me.CheckBox3.Name = "CheckBox3"
-        Me.CheckBox3.Size = New System.Drawing.Size(102, 20)
-        Me.CheckBox3.TabIndex = 8
-        Me.CheckBox3.Text = "Refurbished"
-        Me.CheckBox3.UseVisualStyleBackColor = True
+        Me.CB_refurbished.AutoSize = True
+        Me.CB_refurbished.Location = New System.Drawing.Point(376, 170)
+        Me.CB_refurbished.Name = "CB_refurbished"
+        Me.CB_refurbished.Size = New System.Drawing.Size(102, 20)
+        Me.CB_refurbished.TabIndex = 8
+        Me.CB_refurbished.Text = "Refurbished"
+        Me.CB_refurbished.UseVisualStyleBackColor = True
         '
-        'CheckBox5
+        'CH_HDMI
         '
-        Me.CheckBox5.AutoSize = True
-        Me.CheckBox5.Location = New System.Drawing.Point(376, 196)
-        Me.CheckBox5.Name = "CheckBox5"
-        Me.CheckBox5.Size = New System.Drawing.Size(95, 20)
-        Me.CheckBox5.TabIndex = 9
-        Me.CheckBox5.Text = "HDMI Cord"
-        Me.CheckBox5.UseVisualStyleBackColor = True
+        Me.CH_HDMI.AutoSize = True
+        Me.CH_HDMI.Location = New System.Drawing.Point(376, 196)
+        Me.CH_HDMI.Name = "CH_HDMI"
+        Me.CH_HDMI.Size = New System.Drawing.Size(95, 20)
+        Me.CH_HDMI.TabIndex = 9
+        Me.CH_HDMI.Text = "HDMI Cord"
+        Me.CH_HDMI.UseVisualStyleBackColor = True
         '
-        'Button1
+        'button_lastCheckout
         '
-        Me.Button1.Location = New System.Drawing.Point(479, 300)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(145, 73)
-        Me.Button1.TabIndex = 10
-        Me.Button1.Text = "Very Cool. Buy Now!"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.button_lastCheckout.Location = New System.Drawing.Point(479, 300)
+        Me.button_lastCheckout.Name = "button_lastCheckout"
+        Me.button_lastCheckout.Size = New System.Drawing.Size(145, 73)
+        Me.button_lastCheckout.TabIndex = 10
+        Me.button_lastCheckout.Text = "Very Cool. Buy Now!"
+        Me.button_lastCheckout.UseVisualStyleBackColor = True
         '
         'Checkout
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.CheckBox5)
-        Me.Controls.Add(Me.CheckBox3)
-        Me.Controls.Add(Me.CheckBox4)
-        Me.Controls.Add(Me.CheckBox2)
-        Me.Controls.Add(Me.CheckBox1)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.button_lastCheckout)
+        Me.Controls.Add(Me.CH_HDMI)
+        Me.Controls.Add(Me.CB_refurbished)
+        Me.Controls.Add(Me.CB_addController)
+        Me.Controls.Add(Me.CB_addGame)
+        Me.Controls.Add(Me.CB_used)
+        Me.Controls.Add(Me.label_Price)
+        Me.Controls.Add(Me.PB_Console)
+        Me.Controls.Add(Me.label_TItle)
         Me.Name = "Checkout"
         Me.Size = New System.Drawing.Size(734, 404)
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PB_Console, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents Label1 As Label
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents Label2 As Label
-    Friend WithEvents CheckBox1 As CheckBox
-    Friend WithEvents CheckBox2 As CheckBox
-    Friend WithEvents CheckBox4 As CheckBox
-    Friend WithEvents CheckBox3 As CheckBox
-    Friend WithEvents CheckBox5 As CheckBox
-    Friend WithEvents Button1 As Button
+    Friend WithEvents label_TItle As Label
+    Friend WithEvents PB_Console As PictureBox
+    Friend WithEvents label_Price As Label
+    Friend WithEvents CB_used As CheckBox
+    Friend WithEvents CB_addGame As CheckBox
+    Friend WithEvents CB_addController As CheckBox
+    Friend WithEvents CB_refurbished As CheckBox
+    Friend WithEvents CH_HDMI As CheckBox
+    Friend WithEvents button_lastCheckout As Button
 End Class
