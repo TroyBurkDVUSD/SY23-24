@@ -30,12 +30,15 @@ Partial Class Form1
         Me.Button7 = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Button1
         '
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Location = New System.Drawing.Point(12, 12)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(114, 59)
@@ -81,7 +84,7 @@ Partial Class Form1
         '
         'Button7
         '
-        Me.Button7.Location = New System.Drawing.Point(224, 306)
+        Me.Button7.Location = New System.Drawing.Point(219, 346)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(199, 92)
         Me.Button7.TabIndex = 10
@@ -90,6 +93,8 @@ Partial Class Form1
         '
         'PictureBox1
         '
+        Me.PictureBox1.BackColor = System.Drawing.Color.DarkGray
+        Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.PictureBox1.Image = Global.NintendoPartnerProject.My.Resources.Resources.Cool_Text___Snes_454283406246812
         Me.PictureBox1.Location = New System.Drawing.Point(504, 12)
         Me.PictureBox1.Name = "PictureBox1"
@@ -100,17 +105,41 @@ Partial Class Form1
         '
         'PictureBox2
         '
-        Me.PictureBox2.Location = New System.Drawing.Point(157, 12)
+        Me.PictureBox2.Location = New System.Drawing.Point(148, 12)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(341, 277)
         Me.PictureBox2.TabIndex = 6
         Me.PictureBox2.TabStop = False
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(203, 306)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(215, 16)
+        Me.Label1.TabIndex = 12
+        Me.Label1.Text = "ONLY 50 REMAIN! MUST HURRY!"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(500, 142)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(298, 120)
+        Me.Label2.TabIndex = 13
+        Me.Label2.Text = "PLACEHOLDER PLACEHOLDER " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "PLACEHOLDER PLACEHOLDER" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "PLACEHOLDER PLACEHOLDER" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "PLACE" &
+    "HOLDER PLACEHOLDER" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "PLACEHOLDER PLACEHOLDER"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = Global.NintendoPartnerProject.My.Resources.Resources.dark_4487690_1280
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.PictureBox2)
@@ -124,6 +153,7 @@ Partial Class Form1
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -135,4 +165,6 @@ Partial Class Form1
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents Button7 As Button
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label2 As Label
 End Class
