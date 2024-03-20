@@ -29,7 +29,7 @@ Partial Class Checkout
         Me.CB_addGame = New System.Windows.Forms.CheckBox()
         Me.CB_addController = New System.Windows.Forms.CheckBox()
         Me.CB_refurbished = New System.Windows.Forms.CheckBox()
-        Me.CH_HDMI = New System.Windows.Forms.CheckBox()
+        Me.CB_HDMI = New System.Windows.Forms.CheckBox()
         Me.button_lastCheckout = New System.Windows.Forms.Button()
         CType(Me.PB_Console, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -101,15 +101,15 @@ Partial Class Checkout
         Me.CB_refurbished.Text = "Refurbished"
         Me.CB_refurbished.UseVisualStyleBackColor = True
         '
-        'CH_HDMI
+        'CB_HDMI
         '
-        Me.CH_HDMI.AutoSize = True
-        Me.CH_HDMI.Location = New System.Drawing.Point(376, 196)
-        Me.CH_HDMI.Name = "CH_HDMI"
-        Me.CH_HDMI.Size = New System.Drawing.Size(95, 20)
-        Me.CH_HDMI.TabIndex = 9
-        Me.CH_HDMI.Text = "HDMI Cord"
-        Me.CH_HDMI.UseVisualStyleBackColor = True
+        Me.CB_HDMI.AutoSize = True
+        Me.CB_HDMI.Location = New System.Drawing.Point(376, 196)
+        Me.CB_HDMI.Name = "CB_HDMI"
+        Me.CB_HDMI.Size = New System.Drawing.Size(95, 20)
+        Me.CB_HDMI.TabIndex = 9
+        Me.CB_HDMI.Text = "HDMI Cord"
+        Me.CB_HDMI.UseVisualStyleBackColor = True
         '
         'button_lastCheckout
         '
@@ -125,7 +125,7 @@ Partial Class Checkout
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.Controls.Add(Me.button_lastCheckout)
-        Me.Controls.Add(Me.CH_HDMI)
+        Me.Controls.Add(Me.CB_HDMI)
         Me.Controls.Add(Me.CB_refurbished)
         Me.Controls.Add(Me.CB_addController)
         Me.Controls.Add(Me.CB_addGame)
@@ -148,6 +148,6 @@ Partial Class Checkout
     Friend WithEvents CB_addGame As CheckBox
     Friend WithEvents CB_addController As CheckBox
     Friend WithEvents CB_refurbished As CheckBox
-    Friend WithEvents CH_HDMI As CheckBox
+    Friend WithEvents CB_HDMI As CheckBox
     Friend WithEvents button_lastCheckout As Button
 End Class
