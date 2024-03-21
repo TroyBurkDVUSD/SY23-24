@@ -42,14 +42,15 @@ Partial Class Customization
         '
         'nup_addGame
         '
-        Me.nup_addGame.Location = New System.Drawing.Point(671, 118)
+        Me.nup_addGame.Location = New System.Drawing.Point(653, 140)
         Me.nup_addGame.Name = "nup_addGame"
         Me.nup_addGame.Size = New System.Drawing.Size(45, 22)
         Me.nup_addGame.TabIndex = 29
+        Me.nup_addGame.Visible = False
         '
         'button_gotoCheckout
         '
-        Me.button_gotoCheckout.Location = New System.Drawing.Point(520, 290)
+        Me.button_gotoCheckout.Location = New System.Drawing.Point(502, 312)
         Me.button_gotoCheckout.Name = "button_gotoCheckout"
         Me.button_gotoCheckout.Size = New System.Drawing.Size(145, 73)
         Me.button_gotoCheckout.TabIndex = 28
@@ -59,7 +60,7 @@ Partial Class Customization
         'CB_HDMI
         '
         Me.CB_HDMI.AutoSize = True
-        Me.CB_HDMI.Location = New System.Drawing.Point(520, 172)
+        Me.CB_HDMI.Location = New System.Drawing.Point(502, 194)
         Me.CB_HDMI.Name = "CB_HDMI"
         Me.CB_HDMI.Size = New System.Drawing.Size(95, 20)
         Me.CB_HDMI.TabIndex = 27
@@ -69,7 +70,7 @@ Partial Class Customization
         'CB_refurbished
         '
         Me.CB_refurbished.AutoSize = True
-        Me.CB_refurbished.Location = New System.Drawing.Point(417, 160)
+        Me.CB_refurbished.Location = New System.Drawing.Point(399, 182)
         Me.CB_refurbished.Name = "CB_refurbished"
         Me.CB_refurbished.Size = New System.Drawing.Size(102, 20)
         Me.CB_refurbished.TabIndex = 26
@@ -79,7 +80,7 @@ Partial Class Customization
         'CB_addController
         '
         Me.CB_addController.AutoSize = True
-        Me.CB_addController.Location = New System.Drawing.Point(520, 146)
+        Me.CB_addController.Location = New System.Drawing.Point(502, 168)
         Me.CB_addController.Name = "CB_addController"
         Me.CB_addController.Size = New System.Drawing.Size(149, 20)
         Me.CB_addController.TabIndex = 25
@@ -89,7 +90,7 @@ Partial Class Customization
         'CB_addGame
         '
         Me.CB_addGame.AutoSize = True
-        Me.CB_addGame.Location = New System.Drawing.Point(520, 120)
+        Me.CB_addGame.Location = New System.Drawing.Point(502, 142)
         Me.CB_addGame.Name = "CB_addGame"
         Me.CB_addGame.Size = New System.Drawing.Size(129, 20)
         Me.CB_addGame.TabIndex = 24
@@ -99,7 +100,7 @@ Partial Class Customization
         'CB_used
         '
         Me.CB_used.AutoSize = True
-        Me.CB_used.Location = New System.Drawing.Point(417, 134)
+        Me.CB_used.Location = New System.Drawing.Point(399, 156)
         Me.CB_used.Name = "CB_used"
         Me.CB_used.Size = New System.Drawing.Size(62, 20)
         Me.CB_used.TabIndex = 23
@@ -109,7 +110,7 @@ Partial Class Customization
         'label_Price
         '
         Me.label_Price.AutoSize = True
-        Me.label_Price.Location = New System.Drawing.Point(162, 266)
+        Me.label_Price.Location = New System.Drawing.Point(464, 241)
         Me.label_Price.Name = "label_Price"
         Me.label_Price.Size = New System.Drawing.Size(48, 16)
         Me.label_Price.TabIndex = 22
@@ -117,7 +118,7 @@ Partial Class Customization
         '
         'PB_Console
         '
-        Me.PB_Console.Location = New System.Drawing.Point(84, 87)
+        Me.PB_Console.Location = New System.Drawing.Point(66, 109)
         Me.PB_Console.Name = "PB_Console"
         Me.PB_Console.Size = New System.Drawing.Size(213, 158)
         Me.PB_Console.TabIndex = 21
@@ -126,31 +127,34 @@ Partial Class Customization
         'label_Title
         '
         Me.label_Title.AutoSize = True
-        Me.label_Title.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label_Title.Location = New System.Drawing.Point(285, 24)
+        Me.label_Title.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.label_Title.Location = New System.Drawing.Point(266, 9)
         Me.label_Title.Name = "label_Title"
-        Me.label_Title.Size = New System.Drawing.Size(211, 32)
+        Me.label_Title.Size = New System.Drawing.Size(310, 46)
         Me.label_Title.TabIndex = 30
         Me.label_Title.Text = "Custominzation"
         '
         'nup_addController
         '
-        Me.nup_addController.Location = New System.Drawing.Point(671, 146)
+        Me.nup_addController.Location = New System.Drawing.Point(653, 168)
         Me.nup_addController.Name = "nup_addController"
         Me.nup_addController.Size = New System.Drawing.Size(45, 22)
         Me.nup_addController.TabIndex = 31
+        Me.nup_addController.Visible = False
         '
         'nup_HDMI
         '
-        Me.nup_HDMI.Location = New System.Drawing.Point(671, 172)
+        Me.nup_HDMI.Location = New System.Drawing.Point(653, 194)
         Me.nup_HDMI.Name = "nup_HDMI"
         Me.nup_HDMI.Size = New System.Drawing.Size(45, 22)
         Me.nup_HDMI.TabIndex = 32
+        Me.nup_HDMI.Visible = False
         '
         'Customization
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.LemonChiffon
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.nup_HDMI)
         Me.Controls.Add(Me.nup_addController)
