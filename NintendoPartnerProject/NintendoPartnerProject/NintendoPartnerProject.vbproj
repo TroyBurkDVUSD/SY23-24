@@ -79,6 +79,12 @@
     <Compile Include="Checkout.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Customization.Designer.vb">
+      <DependentUpon>Customization.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Customization.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -105,6 +111,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Checkout.resx">
       <DependentUpon>Checkout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customization.resx">
+      <DependentUpon>Customization.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
