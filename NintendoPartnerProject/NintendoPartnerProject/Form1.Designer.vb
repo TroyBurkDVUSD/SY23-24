@@ -95,7 +95,7 @@ Partial Class Form1
         '
         Me.PB_conslogo.BackColor = System.Drawing.Color.DarkGray
         Me.PB_conslogo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PB_conslogo.Image = Global.NintendoPartnerProject.My.Resources.Resources.Cool_Text___Snes_454283406246812
+        Me.PB_conslogo.Image = Global.NintendoPartnerProject.My.Resources.Resources.Cool_Text___NES_454283385759727
         Me.PB_conslogo.Location = New System.Drawing.Point(504, 12)
         Me.PB_conslogo.Name = "PB_conslogo"
         Me.PB_conslogo.Size = New System.Drawing.Size(293, 124)
