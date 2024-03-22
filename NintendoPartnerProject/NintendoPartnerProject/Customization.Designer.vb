@@ -46,6 +46,7 @@ Partial Class Customization
         Me.nup_addGame.Name = "nup_addGame"
         Me.nup_addGame.Size = New System.Drawing.Size(45, 22)
         Me.nup_addGame.TabIndex = 29
+        Me.nup_addGame.Value = New Decimal(New Integer() {1, 0, 0, 0})
         Me.nup_addGame.Visible = False
         '
         'button_gotoCheckout
@@ -140,6 +141,7 @@ Partial Class Customization
         Me.nup_addController.Name = "nup_addController"
         Me.nup_addController.Size = New System.Drawing.Size(45, 22)
         Me.nup_addController.TabIndex = 31
+        Me.nup_addController.Value = New Decimal(New Integer() {1, 0, 0, 0})
         Me.nup_addController.Visible = False
         '
         'nup_HDMI
@@ -148,6 +150,7 @@ Partial Class Customization
         Me.nup_HDMI.Name = "nup_HDMI"
         Me.nup_HDMI.Size = New System.Drawing.Size(45, 22)
         Me.nup_HDMI.TabIndex = 32
+        Me.nup_HDMI.Value = New Decimal(New Integer() {1, 0, 0, 0})
         Me.nup_HDMI.Visible = False
         '
         'Customization
