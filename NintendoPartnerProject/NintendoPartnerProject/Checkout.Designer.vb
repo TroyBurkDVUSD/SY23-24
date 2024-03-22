@@ -34,20 +34,20 @@ Partial Class Checkout
         '
         'button_lastCheckout
         '
-        Me.button_lastCheckout.Location = New System.Drawing.Point(316, 293)
+        Me.button_lastCheckout.Location = New System.Drawing.Point(305, 293)
         Me.button_lastCheckout.Name = "button_lastCheckout"
         Me.button_lastCheckout.Size = New System.Drawing.Size(145, 73)
         Me.button_lastCheckout.TabIndex = 19
-        Me.button_lastCheckout.Text = "Very Cool. Buy Now!"
+        Me.button_lastCheckout.Text = "Confirm"
         Me.button_lastCheckout.UseVisualStyleBackColor = True
         '
         'label_TItle
         '
         Me.label_TItle.AutoSize = True
-        Me.label_TItle.Font = New System.Drawing.Font("Microsoft Sans Serif", 30.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.label_TItle.Font = New System.Drawing.Font("Microsoft Sans Serif", 30.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.label_TItle.Location = New System.Drawing.Point(261, 22)
         Me.label_TItle.Name = "label_TItle"
-        Me.label_TItle.Size = New System.Drawing.Size(237, 58)
+        Me.label_TItle.Size = New System.Drawing.Size(245, 58)
         Me.label_TItle.TabIndex = 11
         Me.label_TItle.Text = "Checkout"
         '
