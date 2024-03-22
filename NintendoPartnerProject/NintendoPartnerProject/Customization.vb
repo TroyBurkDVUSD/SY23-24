@@ -1,4 +1,5 @@
-﻿Imports System.Windows
+﻿Imports System.Runtime.InteropServices.WindowsRuntime
+Imports System.Windows
 
 Public Class Customization
     Dim f1 As New Form1
@@ -8,12 +9,16 @@ Public Class Customization
     Dim c As Decimal
     Dim d As Decimal
     Dim f As Decimal
-    Dim v As Decimal
+    Dim image As Image = f1.PB_conslogo.Image
 
     Private Sub Customization_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         If CB_used.Checked Then
-            a = 
+            If f1.PB_conslogo.Image = cooltext_nes Then
+
+            End If
+
         End If
+
         If CB_refurbished.Checked Then
             b = 1.2
         End If
