@@ -30,7 +30,6 @@ Partial Class Form1
         Me.button_Checkout = New System.Windows.Forms.Button()
         Me.PB_conslogo = New System.Windows.Forms.PictureBox()
         Me.PB_consDisplay = New System.Windows.Forms.PictureBox()
-        Me.label_flavor = New System.Windows.Forms.Label()
         Me.label_consDescription = New System.Windows.Forms.Label()
         CType(Me.PB_conslogo, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PB_consDisplay, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -95,51 +94,44 @@ Partial Class Form1
         '
         Me.PB_conslogo.BackColor = System.Drawing.Color.DarkGray
         Me.PB_conslogo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PB_conslogo.Image = Global.NintendoPartnerProject.My.Resources.Resources.Cool_Text___NES_454283385759727
-        Me.PB_conslogo.Location = New System.Drawing.Point(504, 12)
+        Me.PB_conslogo.Image = Global.NintendoPartnerProject.My.Resources.Resources.cooltext_nes
+        Me.PB_conslogo.Location = New System.Drawing.Point(632, 12)
         Me.PB_conslogo.Name = "PB_conslogo"
-        Me.PB_conslogo.Size = New System.Drawing.Size(293, 124)
+        Me.PB_conslogo.Size = New System.Drawing.Size(116, 59)
         Me.PB_conslogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PB_conslogo.TabIndex = 11
         Me.PB_conslogo.TabStop = False
         '
         'PB_consDisplay
         '
-        Me.PB_consDisplay.Location = New System.Drawing.Point(148, 12)
+        Me.PB_consDisplay.BackColor = System.Drawing.SystemColors.ControlDark
+        Me.PB_consDisplay.Image = Global.NintendoPartnerProject.My.Resources.Resources.nes_new
+        Me.PB_consDisplay.Location = New System.Drawing.Point(219, 12)
         Me.PB_consDisplay.Name = "PB_consDisplay"
-        Me.PB_consDisplay.Size = New System.Drawing.Size(341, 277)
+        Me.PB_consDisplay.Size = New System.Drawing.Size(318, 159)
+        Me.PB_consDisplay.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PB_consDisplay.TabIndex = 6
         Me.PB_consDisplay.TabStop = False
-        '
-        'label_flavor
-        '
-        Me.label_flavor.AutoSize = True
-        Me.label_flavor.Location = New System.Drawing.Point(203, 306)
-        Me.label_flavor.Name = "label_flavor"
-        Me.label_flavor.Size = New System.Drawing.Size(215, 16)
-        Me.label_flavor.TabIndex = 12
-        Me.label_flavor.Text = "ONLY 50 REMAIN! MUST HURRY!"
         '
         'label_consDescription
         '
         Me.label_consDescription.AutoSize = True
         Me.label_consDescription.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label_consDescription.Location = New System.Drawing.Point(500, 146)
+        Me.label_consDescription.Location = New System.Drawing.Point(360, 142)
         Me.label_consDescription.Name = "label_consDescription"
-        Me.label_consDescription.Size = New System.Drawing.Size(298, 120)
+        Me.label_consDescription.Size = New System.Drawing.Size(437, 120)
         Me.label_consDescription.TabIndex = 13
-        Me.label_consDescription.Text = "PLACEHOLDER PLACEHOLDER " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "PLACEHOLDER PLACEHOLDER" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "PLACEHOLDER PLACEHOLDER" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "PLACE" &
-    "HOLDER PLACEHOLDER" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "PLACEHOLDER PLACEHOLDER"
+        Me.label_consDescription.Text = "PLACEHOLDER PLACEHOLDER PLACEHOLDER" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "PLACEHOLDER PLACEHOLDER PLACEHOLDER" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "PLACEHO" &
+    "LDER PLACEHOLDER PLACEHOLDER" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "PLACEHOLDER PLACEHOLDER PLACEHOLDER" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "PLACEHOLDER P" &
+    "LACEHOLDER PLACEHOLDER" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.NintendoPartnerProject.My.Resources.Resources.dark_4487690_1280
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.label_consDescription)
-        Me.Controls.Add(Me.label_flavor)
         Me.Controls.Add(Me.PB_conslogo)
         Me.Controls.Add(Me.button_Checkout)
         Me.Controls.Add(Me.PB_consDisplay)
@@ -165,6 +157,5 @@ Partial Class Form1
     Friend WithEvents PB_consDisplay As PictureBox
     Friend WithEvents button_Checkout As Button
     Friend WithEvents PB_conslogo As PictureBox
-    Friend WithEvents label_flavor As Label
     Friend WithEvents label_consDescription As Label
 End Class

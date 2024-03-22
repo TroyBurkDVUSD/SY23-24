@@ -63,9 +63,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property Cool_Text___NES_454283385759727() As System.Drawing.Bitmap
+        Friend ReadOnly Property cooltext_gamecube() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("Cool Text - NES 454283385759727", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("cooltext_gamecube", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -73,9 +73,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property Cool_Text___NintendoWii_454283760655220() As System.Drawing.Bitmap
+        Friend ReadOnly Property cooltext_nes() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("Cool Text - NintendoWii 454283760655220", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("cooltext_nes", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -83,9 +83,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property Cool_Text___Snes_454283406246812() As System.Drawing.Bitmap
+        Friend ReadOnly Property cooltext_nintendo64() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("Cool Text - Snes 454283406246812", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("cooltext_nintendo64", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -93,9 +93,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property cooltext454283430746308() As System.Drawing.Bitmap
+        Friend ReadOnly Property cooltext_nintendowii() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("cooltext454283430746308", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("cooltext_nintendowii", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -103,9 +103,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property cooltext454283551758443() As System.Drawing.Bitmap
+        Friend ReadOnly Property cooltext_snes() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("cooltext454283551758443", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("cooltext_snes", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -113,9 +113,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property cooltext454283594407356() As System.Drawing.Bitmap
+        Friend ReadOnly Property hexbackground() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("cooltext454283594407356", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("hexbackground", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -123,9 +123,79 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property dark_4487690_1280() As System.Drawing.Bitmap
+        Friend ReadOnly Property n64_new() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("dark-4487690_1280", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("n64-new", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property n64_used() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("n64-used", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property nes_new() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("nes-new", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property nes_used() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("nes-used", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property snes_new() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("snes-new", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property snes_used() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("snes-used", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property wii_new() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("wii-new", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property wii_used() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("wii-used", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

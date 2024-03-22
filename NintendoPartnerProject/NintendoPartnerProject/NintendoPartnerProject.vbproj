@@ -120,9 +120,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -137,26 +137,48 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <None Include="Resources\Cool Text - NES 454283385759727.png" />
+    <None Include="Resources\cooltext_gamecube1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Cool Text - Snes 454283406246812.png" />
+    <None Include="Resources\cooltext_nes1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\cooltext454283430746308.png" />
+    <None Include="Resources\cooltext_nintendo641.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\cooltext454283551758443.png" />
+    <None Include="Resources\cooltext_nintendowii1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\cooltext454283594407356.png" />
+    <None Include="Resources\cooltext_snes1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Cool Text - NintendoWii 454283760655220.png" />
+    <None Include="Resources\hexbackground1.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\dark-4487690_1280.jpg" />
+    <None Include="Resources\n64-new1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\n64-used1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nes-new1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nes-used1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snes-new1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snes-used1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wii-new1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wii-used1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

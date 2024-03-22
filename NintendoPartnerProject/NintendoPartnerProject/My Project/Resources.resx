@@ -118,25 +118,46 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Cool Text - NES 454283385759727" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cool Text - NES 454283385759727.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cooltext_gamecube" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cooltext_gamecube1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Cool Text - Snes 454283406246812" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cool Text - Snes 454283406246812.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cooltext_nes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cooltext_nes1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cooltext454283551758443" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cooltext454283551758443.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cooltext_nintendo64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cooltext_nintendo641.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Cool Text - NintendoWii 454283760655220" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cool Text - NintendoWii 454283760655220.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cooltext_nintendowii" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cooltext_nintendowii1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cooltext454283430746308" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cooltext454283430746308.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cooltext_snes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cooltext_snes1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cooltext454283594407356" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cooltext454283594407356.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hexbackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hexbackground1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dark-4487690_1280" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dark-4487690_1280.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="n64-new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\n64-new1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="n64-used" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\n64-used1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nes-new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nes-new1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nes-used" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nes-used1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snes-new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\snes-new1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snes-used" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\snes-used1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wii-new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wii-new1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wii-used" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wii-used1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
