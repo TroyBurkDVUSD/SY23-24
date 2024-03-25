@@ -1,4 +1,5 @@
-﻿Imports System.Runtime.InteropServices.WindowsRuntime
+﻿Imports System.ComponentModel
+Imports System.Runtime.InteropServices.WindowsRuntime
 Imports System.Windows
 
 Public Class Customization
@@ -13,14 +14,13 @@ Public Class Customization
 
     Private Sub Customization_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         If CB_used.Checked Then
-<<<<<<< HEAD
-            'a = 
-=======
-            If f1.PB_conslogo.Image = cooltext_nes Then
+
+
+            If f1.PB_conslogo.Image = "cooltext_nes.png" Then
 
             End If
 
->>>>>>> main
+
         End If
 
         If CB_refurbished.Checked Then
