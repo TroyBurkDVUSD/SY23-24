@@ -94,7 +94,7 @@ Partial Class Form1
         '
         Me.PB_conslogo.BackColor = System.Drawing.Color.DarkGray
         Me.PB_conslogo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PB_conslogo.Image = Global.NintendoPartnerProject.My.Resources.Resources.cooltext_nes
+        Me.PB_conslogo.Image = Global.NintendoPartnerProject.My.Resources.Resources.cooltext_snes
         Me.PB_conslogo.Location = New System.Drawing.Point(632, 12)
         Me.PB_conslogo.Name = "PB_conslogo"
         Me.PB_conslogo.Size = New System.Drawing.Size(116, 59)
@@ -105,7 +105,7 @@ Partial Class Form1
         'PB_consDisplay
         '
         Me.PB_consDisplay.BackColor = System.Drawing.SystemColors.ControlDark
-        Me.PB_consDisplay.Image = Global.NintendoPartnerProject.My.Resources.Resources.nes_new
+        Me.PB_consDisplay.Image = Global.NintendoPartnerProject.My.Resources.Resources.snes_new
         Me.PB_consDisplay.Location = New System.Drawing.Point(219, 12)
         Me.PB_consDisplay.Name = "PB_consDisplay"
         Me.PB_consDisplay.Size = New System.Drawing.Size(318, 159)

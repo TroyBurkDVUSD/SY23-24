@@ -12,7 +12,7 @@ Public Class Customization
 
     Private Sub Customization_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         If CB_used.Checked Then
-            a = 
+            'a = 
         End If
         If CB_refurbished.Checked Then
             b = 1.2
@@ -33,6 +33,6 @@ Public Class Customization
             nup_HDMI.Visible = True
             f = 15
         End If
-        label_Price.Text = 
+        'label_Price.Text = 
     End Sub
 End Class
