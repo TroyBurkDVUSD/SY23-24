@@ -6,8 +6,8 @@ HIIIIII
 
 HELLO!!!!!!!!!!!
 
-Wozowie Bop owie...
+Wozowie BOP owie...
 
 THIS is SPARTA
-
 Hey guys, Troy Burk here
+Hi:D
