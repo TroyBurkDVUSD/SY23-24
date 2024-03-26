@@ -2,7 +2,7 @@
 Public Class Form1
     'Dim f2 As New Customization
     Dim f3 As New Checkout
-    Dim ConsoleSelected As Object
+    'Dim ConsoleSelected As Object
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
@@ -19,6 +19,10 @@ Public Class Form1
     Private Sub button_snes_Click(sender As Object, e As EventArgs) Handles button_snes.Click
         PB_consDisplay.Load("snes-new.jpg")
         PB_conslogo.Load("cooltext_snes.png")
+        PB_consDisplay.Size = New Size(290, 159)
+        PB_conslogo.Size = New Size(130, 59)
+        PB_consDisplay.Location = New Point(175, 12)
+        PB_conslogo.Location = New Point(467, 12)
         ConsoleSelected = "SNES"
     End Sub
 
