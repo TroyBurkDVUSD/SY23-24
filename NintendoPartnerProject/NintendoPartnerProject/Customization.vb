@@ -16,12 +16,12 @@ Public Class Customization
         If CB_used.Checked Then
 
 
-            If f1.PB_conslogo.Image = "cooltext_nes.png" Then
-
-            End If
-
+            'If f1.PB_conslogo.Image = "cooltext_nes.png" Then
 
         End If
+
+
+        'End If
 
         If CB_refurbished.Checked Then
             b = 1.2

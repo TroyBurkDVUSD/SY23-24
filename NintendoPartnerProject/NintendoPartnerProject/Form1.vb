@@ -18,7 +18,7 @@ Public Class Form1
 
     Private Sub button_snes_Click(sender As Object, e As EventArgs) Handles button_snes.Click
         PB_consDisplay.Load("snes-new.jpg")
-        PB_conslogo.Load("snes_cooltext.jpg")
+        PB_conslogo.Load("cooltext_snes.png")
         ConsoleSelected = "SNES"
     End Sub
 
@@ -29,6 +29,14 @@ Public Class Form1
     End Sub
 
     Private Sub button_gc_Click(sender As Object, e As EventArgs) Handles button_gc.Click
-        PB_consDisplay.Load("")
+        PB_consDisplay.Load("gc-new.jpg")
+        PB_conslogo.Load("cooltext_gamecube.png")
+        ConsoleSelected = "GC"
+    End Sub
+
+    Private Sub button_wii_Click(sender As Object, e As EventArgs) Handles button_wii.Click
+        PB_consDisplay.Load("wii-new.jpg")
+        PB_conslogo.Load("cooltext_nintendowii.png")
+        ConsoleSelected = "WII"
     End Sub
 End Class
