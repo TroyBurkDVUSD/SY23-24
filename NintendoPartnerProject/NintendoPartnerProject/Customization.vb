@@ -16,14 +16,14 @@ Public Class Customization
         If CB_used.Checked Then
 
 
-            If f1.PB_conslogo.Image = "cooltext_nes.png" Then
+            If f1.PB_conslogo.BackgroundImage =  Then
+
+            End If
+            PB_Console.Image = ImageList1.Images(0)
 
             End If
 
-
-        End If
-
-        If CB_refurbished.Checked Then
+            If CB_refurbished.Checked Then
             b = 1.2
         End If
         If CB_addGame.Checked Then

@@ -22,6 +22,8 @@ Partial Class Customization
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Customization))
         Me.nup_addGame = New System.Windows.Forms.NumericUpDown()
         Me.button_gotoCheckout = New System.Windows.Forms.Button()
         Me.CB_HDMI = New System.Windows.Forms.CheckBox()
@@ -34,6 +36,7 @@ Partial Class Customization
         Me.label_Title = New System.Windows.Forms.Label()
         Me.nup_addController = New System.Windows.Forms.NumericUpDown()
         Me.nup_HDMI = New System.Windows.Forms.NumericUpDown()
+        Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
         CType(Me.nup_addGame, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PB_Console, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.nup_addController, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -153,6 +156,12 @@ Partial Class Customization
         Me.nup_HDMI.Value = New Decimal(New Integer() {1, 0, 0, 0})
         Me.nup_HDMI.Visible = False
         '
+        'ImageList1
+        '
+        Me.ImageList1.ImageStream = CType(resources.GetObject("ImageList1.ImageStream"), System.Windows.Forms.ImageListStreamer)
+        Me.ImageList1.TransparentColor = System.Drawing.Color.Transparent
+        Me.ImageList1.Images.SetKeyName(0, "fat kirby.png")
+        '
         'Customization
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -194,4 +203,5 @@ Partial Class Customization
     Friend WithEvents label_Title As Label
     Friend WithEvents nup_addController As NumericUpDown
     Friend WithEvents nup_HDMI As NumericUpDown
+    Friend WithEvents ImageList1 As ImageList
 End Class
