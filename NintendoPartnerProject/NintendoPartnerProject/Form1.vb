@@ -1,6 +1,8 @@
-﻿Imports System.Windows
+﻿Imports System.Reflection.Emit
+Imports System.Windows
+Imports System.Windows.Forms.DataFormats
+
 Public Class Form1
-    'Dim f2 As New Customization
     Dim f3 As New Checkout
     'Dim ConsoleSelected As Object
 
@@ -42,5 +44,13 @@ Public Class Form1
         PB_consDisplay.Load("wii-new.jpg")
         PB_conslogo.Load("cooltext_nintendowii.png")
         ConsoleSelected = "WII"
+    End Sub
+
+    Private Sub button_Checkout_Click(sender As Object, e As EventArgs) Handles button_Checkout.Click
+        Me.Hide()
+        Dim f2 As New Customization
+        f2.ShowDialog()
+        Me.Show()
+
     End Sub
 End Class

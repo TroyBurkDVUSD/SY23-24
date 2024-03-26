@@ -87,7 +87,7 @@ Partial Class Form1
         Me.button_Checkout.Name = "button_Checkout"
         Me.button_Checkout.Size = New System.Drawing.Size(199, 92)
         Me.button_Checkout.TabIndex = 10
-        Me.button_Checkout.Text = "Checkout"
+        Me.button_Checkout.Text = "Customize"
         Me.button_Checkout.UseVisualStyleBackColor = True
         '
         'PB_conslogo
