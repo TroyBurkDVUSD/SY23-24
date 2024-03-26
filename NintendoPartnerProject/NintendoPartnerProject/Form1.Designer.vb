@@ -117,7 +117,7 @@ Partial Class Form1
         '
         Me.label_consDescription.AutoSize = True
         Me.label_consDescription.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label_consDescription.Location = New System.Drawing.Point(360, 142)
+        Me.label_consDescription.Location = New System.Drawing.Point(363, 185)
         Me.label_consDescription.Name = "label_consDescription"
         Me.label_consDescription.Size = New System.Drawing.Size(437, 120)
         Me.label_consDescription.TabIndex = 13
