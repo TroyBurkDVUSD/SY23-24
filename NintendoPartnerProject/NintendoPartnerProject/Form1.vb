@@ -15,6 +15,8 @@ Public Class Form1
         PB_conslogo.Load("cooltext_nes.png")
         PB_consDisplay.Size = New Size(300, 159)
         PB_conslogo.Size = New Size(116, 59)
+        'PB_consDisplay.Location = New Point()
+        PB_conslogo.Location = New Point(477, 12)
         ConsoleSelected = "NES"
     End Sub
 
