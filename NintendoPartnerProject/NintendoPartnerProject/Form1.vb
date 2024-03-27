@@ -14,10 +14,13 @@ Public Class Form1
     Private Sub buttonNes_Click(sender As Object, e As EventArgs) Handles button_nes.Click
         PB_consDisplay.Load("nes-new.png")
         PB_conslogo.Load("cooltext_nes.png")
+
         PB_consDisplay.Size = New Size(300, 159)
         PB_conslogo.Size = New Size(116, 59)
+
         'PB_consDisplay.Location = New Point()
         PB_conslogo.Location = New Point(477, 12)
+
         ConsoleSelected = "NES"
         label_Price.Text = 94.99.ToString("C2")
         button_Customize.Visible = True
