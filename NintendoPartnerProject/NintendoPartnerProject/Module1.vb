@@ -1,3 +1,3 @@
 ﻿Module Module1
-    Public ConsoleSelected As Object
+    Public ConsoleSelected As String
 End Module
