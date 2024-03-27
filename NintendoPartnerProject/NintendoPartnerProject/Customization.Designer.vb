@@ -37,6 +37,7 @@ Partial Class Customization
         Me.nup_addController = New System.Windows.Forms.NumericUpDown()
         Me.nup_HDMI = New System.Windows.Forms.NumericUpDown()
         Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         CType(Me.nup_addGame, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PB_Console, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.nup_addController, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -162,6 +163,10 @@ Partial Class Customization
         Me.ImageList1.TransparentColor = System.Drawing.Color.Transparent
         Me.ImageList1.Images.SetKeyName(0, "fat kirby.png")
         '
+        'Timer1
+        '
+        Me.Timer1.Interval = 1000
+        '
         'Customization
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -204,4 +209,5 @@ Partial Class Customization
     Friend WithEvents nup_addController As NumericUpDown
     Friend WithEvents nup_HDMI As NumericUpDown
     Friend WithEvents ImageList1 As ImageList
+    Friend WithEvents Timer1 As Timer
 End Class
