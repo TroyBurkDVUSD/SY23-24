@@ -1,6 +1,3 @@
-Imports System.ComponentModel
-Imports System.Runtime.InteropServices.WindowsRuntime
-Imports System.Windows
 
 Public Class Customization
     Dim m As Decimal
@@ -11,8 +8,9 @@ Public Class Customization
         If ConsoleSelected = "NES" Then
             p = 94.99
             label_Price.Text = 94.99.ToString("C2")
-            Options()
-        End If
+            If 
+                    Options()
+            End If
         If ConsoleSelected = "SNES" Then
             p = 159.99
             label_Price.Text = 159.99.ToString("C2")
@@ -34,9 +32,10 @@ Public Class Customization
             Options()
         End If
     End Sub
+
     Private Sub Options()
         If CB_used.Checked Then
-            p = p - p * 0.8
+            p = p + p * -0.8
         End If
         If CB_refurbished.Checked Then
             p = p + p * 1.2
