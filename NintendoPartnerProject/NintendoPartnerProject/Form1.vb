@@ -74,4 +74,12 @@ Public Class Form1
         End If
 
     End Sub
+
+    Private Sub button_Checkout_Click(sender As Object, e As EventArgs) Handles button_Checkout.Click
+        Me.Hide()
+        Dim f3 As New Checkout
+        f3.ShowDialog()
+        Me.Show()
+
+    End Sub
 End Class
