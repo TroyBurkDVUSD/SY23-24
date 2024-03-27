@@ -27,10 +27,12 @@ Partial Class Form1
         Me.button_n64 = New System.Windows.Forms.Button()
         Me.button_gc = New System.Windows.Forms.Button()
         Me.button_wii = New System.Windows.Forms.Button()
-        Me.button_Checkout = New System.Windows.Forms.Button()
+        Me.button_Customize = New System.Windows.Forms.Button()
         Me.PB_conslogo = New System.Windows.Forms.PictureBox()
         Me.PB_consDisplay = New System.Windows.Forms.PictureBox()
         Me.label_consDescription = New System.Windows.Forms.Label()
+        Me.label_Price = New System.Windows.Forms.Label()
+        Me.button_Checkout = New System.Windows.Forms.Button()
         CType(Me.PB_conslogo, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PB_consDisplay, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -81,14 +83,15 @@ Partial Class Form1
         Me.button_wii.Text = "WII"
         Me.button_wii.UseVisualStyleBackColor = True
         '
-        'button_Checkout
+        'button_Customize
         '
-        Me.button_Checkout.Location = New System.Drawing.Point(219, 346)
-        Me.button_Checkout.Name = "button_Checkout"
-        Me.button_Checkout.Size = New System.Drawing.Size(199, 92)
-        Me.button_Checkout.TabIndex = 10
-        Me.button_Checkout.Text = "Customize"
-        Me.button_Checkout.UseVisualStyleBackColor = True
+        Me.button_Customize.Location = New System.Drawing.Point(219, 346)
+        Me.button_Customize.Name = "button_Customize"
+        Me.button_Customize.Size = New System.Drawing.Size(199, 92)
+        Me.button_Customize.TabIndex = 10
+        Me.button_Customize.Text = "Customize"
+        Me.button_Customize.UseVisualStyleBackColor = True
+        Me.button_Customize.Visible = False
         '
         'PB_conslogo
         '
@@ -125,6 +128,25 @@ Partial Class Form1
     "LDER PLACEHOLDER PLACEHOLDER" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "PLACEHOLDER PLACEHOLDER PLACEHOLDER" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "PLACEHOLDER P" &
     "LACEHOLDER PLACEHOLDER" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
+        'label_Price
+        '
+        Me.label_Price.AutoSize = True
+        Me.label_Price.Location = New System.Drawing.Point(401, 310)
+        Me.label_Price.Name = "label_Price"
+        Me.label_Price.Size = New System.Drawing.Size(48, 16)
+        Me.label_Price.TabIndex = 14
+        Me.label_Price.Text = "Label1"
+        '
+        'button_Checkout
+        '
+        Me.button_Checkout.Location = New System.Drawing.Point(462, 346)
+        Me.button_Checkout.Name = "button_Checkout"
+        Me.button_Checkout.Size = New System.Drawing.Size(199, 92)
+        Me.button_Checkout.TabIndex = 15
+        Me.button_Checkout.Text = "Checkout"
+        Me.button_Checkout.UseVisualStyleBackColor = True
+        Me.button_Checkout.Visible = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -132,9 +154,11 @@ Partial Class Form1
         Me.BackgroundImage = Global.NintendoPartnerProject.My.Resources.Resources.hexbackground
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.button_Checkout)
+        Me.Controls.Add(Me.label_Price)
         Me.Controls.Add(Me.label_consDescription)
         Me.Controls.Add(Me.PB_conslogo)
-        Me.Controls.Add(Me.button_Checkout)
+        Me.Controls.Add(Me.button_Customize)
         Me.Controls.Add(Me.PB_consDisplay)
         Me.Controls.Add(Me.button_wii)
         Me.Controls.Add(Me.button_gc)
@@ -156,7 +180,9 @@ Partial Class Form1
     Friend WithEvents button_gc As Button
     Friend WithEvents button_wii As Button
     Friend WithEvents PB_consDisplay As PictureBox
-    Friend WithEvents button_Checkout As Button
+    Friend WithEvents button_Customize As Button
     Friend WithEvents PB_conslogo As PictureBox
     Friend WithEvents label_consDescription As Label
+    Friend WithEvents label_Price As Label
+    Friend WithEvents button_Checkout As Button
 End Class

@@ -11,28 +11,33 @@ Public Class Customization
     Dim d As Decimal
     Dim f As Decimal
     Dim m As Decimal
-    Dim p As Decimal
-    Dim image As Image = f1.PB_conslogo.Image
+    Public p As Decimal
+
 
     Private Sub Customization_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         If ConsoleSelected = "NES" Then
             m = 94.99
+            label_Price.Text = 94.99.ToString("C2")
             Options()
         End If
         If ConsoleSelected = "SNES" Then
             m = 159.99
+            label_Price.Text = 159.99.ToString("C2")
             Options()
         End If
         If ConsoleSelected = "N64" Then
             m = 169.99
+            label_Price.Text = 169.99.ToString("C2")
             Options()
         End If
-        If ConsoleSelected = "GAMECUBE" Then
+        If ConsoleSelected = "GC" Then
             m = 129.99
+            label_Price.Text = 129.99.ToString("C2")
             Options()
         End If
         If ConsoleSelected = "WII" Then
             m = 119.99
+            label_Price.Text = 119.99.ToString("C2")
             Options()
         End If
     End Sub

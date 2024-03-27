@@ -24,12 +24,12 @@ Partial Class Checkout
     Private Sub InitializeComponent()
         Me.button_lastCheckout = New System.Windows.Forms.Button()
         Me.label_TItle = New System.Windows.Forms.Label()
-        Me.label_totalPricelabel = New System.Windows.Forms.Label()
-        Me.label_ogPricelabel = New System.Windows.Forms.Label()
-        Me.label_taxlabel = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.label_total = New System.Windows.Forms.Label()
         Me.label_tax = New System.Windows.Forms.Label()
-        Me.label_ogprice = New System.Windows.Forms.Label()
+        Me.label_price = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'button_lastCheckout
@@ -51,32 +51,32 @@ Partial Class Checkout
         Me.label_TItle.TabIndex = 11
         Me.label_TItle.Text = "Checkout"
         '
-        'label_totalPricelabel
+        'Label3
         '
-        Me.label_totalPricelabel.AutoSize = True
-        Me.label_totalPricelabel.Location = New System.Drawing.Point(313, 224)
-        Me.label_totalPricelabel.Name = "label_totalPricelabel"
-        Me.label_totalPricelabel.Size = New System.Drawing.Size(41, 16)
-        Me.label_totalPricelabel.TabIndex = 20
-        Me.label_totalPricelabel.Text = "Total:"
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(313, 224)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(41, 16)
+        Me.Label3.TabIndex = 20
+        Me.Label3.Text = "Total:"
         '
-        'label_ogPricelabel
+        'Label1
         '
-        Me.label_ogPricelabel.AutoSize = True
-        Me.label_ogPricelabel.Location = New System.Drawing.Point(313, 146)
-        Me.label_ogPricelabel.Name = "label_ogPricelabel"
-        Me.label_ogPricelabel.Size = New System.Drawing.Size(41, 16)
-        Me.label_ogPricelabel.TabIndex = 21
-        Me.label_ogPricelabel.Text = "Price:"
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(313, 146)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(41, 16)
+        Me.Label1.TabIndex = 21
+        Me.Label1.Text = "Price:"
         '
-        'label_taxlabel
+        'Label2
         '
-        Me.label_taxlabel.AutoSize = True
-        Me.label_taxlabel.Location = New System.Drawing.Point(318, 181)
-        Me.label_taxlabel.Name = "label_taxlabel"
-        Me.label_taxlabel.Size = New System.Drawing.Size(33, 16)
-        Me.label_taxlabel.TabIndex = 22
-        Me.label_taxlabel.Text = "Tax:"
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(318, 181)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(33, 16)
+        Me.Label2.TabIndex = 22
+        Me.Label2.Text = "Tax:"
         '
         'label_total
         '
@@ -96,26 +96,26 @@ Partial Class Checkout
         Me.label_tax.TabIndex = 24
         Me.label_tax.Text = "Label2"
         '
-        'label_ogprice
+        'label_price
         '
-        Me.label_ogprice.AutoSize = True
-        Me.label_ogprice.Location = New System.Drawing.Point(378, 146)
-        Me.label_ogprice.Name = "label_ogprice"
-        Me.label_ogprice.Size = New System.Drawing.Size(48, 16)
-        Me.label_ogprice.TabIndex = 25
-        Me.label_ogprice.Text = "Label3"
+        Me.label_price.AutoSize = True
+        Me.label_price.Location = New System.Drawing.Point(378, 146)
+        Me.label_price.Name = "label_price"
+        Me.label_price.Size = New System.Drawing.Size(48, 16)
+        Me.label_price.TabIndex = 25
+        Me.label_price.Text = "Label3"
         '
         'Checkout
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.label_ogprice)
+        Me.Controls.Add(Me.label_price)
         Me.Controls.Add(Me.label_tax)
         Me.Controls.Add(Me.label_total)
-        Me.Controls.Add(Me.label_taxlabel)
-        Me.Controls.Add(Me.label_ogPricelabel)
-        Me.Controls.Add(Me.label_totalPricelabel)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.button_lastCheckout)
         Me.Controls.Add(Me.label_TItle)
         Me.Name = "Checkout"
@@ -127,10 +127,10 @@ Partial Class Checkout
 
     Friend WithEvents button_lastCheckout As Button
     Friend WithEvents label_TItle As Label
-    Friend WithEvents label_totalPricelabel As Label
-    Friend WithEvents label_ogPricelabel As Label
-    Friend WithEvents label_taxlabel As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label2 As Label
     Friend WithEvents label_total As Label
     Friend WithEvents label_tax As Label
-    Friend WithEvents label_ogprice As Label
+    Friend WithEvents label_price As Label
 End Class

@@ -58,7 +58,7 @@ Partial Class Customization
         Me.button_gotoCheckout.Name = "button_gotoCheckout"
         Me.button_gotoCheckout.Size = New System.Drawing.Size(145, 73)
         Me.button_gotoCheckout.TabIndex = 28
-        Me.button_gotoCheckout.Text = "Procede to Checkout"
+        Me.button_gotoCheckout.Text = "Return To Main"
         Me.button_gotoCheckout.UseVisualStyleBackColor = True
         '
         'CB_HDMI
@@ -74,7 +74,7 @@ Partial Class Customization
         'CB_refurbished
         '
         Me.CB_refurbished.AutoSize = True
-        Me.CB_refurbished.Location = New System.Drawing.Point(399, 182)
+        Me.CB_refurbished.Location = New System.Drawing.Point(378, 182)
         Me.CB_refurbished.Name = "CB_refurbished"
         Me.CB_refurbished.Size = New System.Drawing.Size(102, 20)
         Me.CB_refurbished.TabIndex = 26
@@ -104,7 +104,7 @@ Partial Class Customization
         'CB_used
         '
         Me.CB_used.AutoSize = True
-        Me.CB_used.Location = New System.Drawing.Point(399, 156)
+        Me.CB_used.Location = New System.Drawing.Point(378, 156)
         Me.CB_used.Name = "CB_used"
         Me.CB_used.Size = New System.Drawing.Size(62, 20)
         Me.CB_used.TabIndex = 23
