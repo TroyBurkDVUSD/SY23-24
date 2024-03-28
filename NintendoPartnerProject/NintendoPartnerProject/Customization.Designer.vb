@@ -165,7 +165,7 @@ Partial Class Customization
         '
         'Timer1
         '
-        Me.Timer1.Interval = 1000
+        Me.Timer1.Enabled = True
         '
         'Customization
         '
