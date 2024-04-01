@@ -30,6 +30,8 @@ Partial Class Checkout
         Me.label_total = New System.Windows.Forms.Label()
         Me.label_tax = New System.Windows.Forms.Label()
         Me.label_price = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'button_lastCheckout
@@ -105,11 +107,23 @@ Partial Class Checkout
         Me.label_price.TabIndex = 25
         Me.label_price.Text = "Label3"
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.NintendoPartnerProject.My.Resources.Resources.thankyousmiley
+        Me.PictureBox1.Location = New System.Drawing.Point(163, -7)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(496, 445)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 26
+        Me.PictureBox1.TabStop = False
+        Me.PictureBox1.Visible = False
+        '
         'Checkout
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.label_price)
         Me.Controls.Add(Me.label_tax)
         Me.Controls.Add(Me.label_total)
@@ -120,6 +134,7 @@ Partial Class Checkout
         Me.Controls.Add(Me.label_TItle)
         Me.Name = "Checkout"
         Me.Text = "Checkout"
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -133,4 +148,5 @@ Partial Class Checkout
     Friend WithEvents label_total As Label
     Friend WithEvents label_tax As Label
     Friend WithEvents label_price As Label
+    Friend WithEvents PictureBox1 As PictureBox
 End Class

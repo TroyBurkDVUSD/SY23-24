@@ -138,7 +138,9 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\thankyousmiley.png" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\cooltext_gamecube1.png" />
   </ItemGroup>

@@ -48,7 +48,7 @@ Public Class Form1
         PB_consDisplay.Load("n64-new.jpg")
         PB_conslogo.Load("cooltext_nintendo64.png")
 
-        PB_consDisplay.Size = New Size(240, 139)
+        PB_consDisplay.Size = New Size(240, 155)
         PB_conslogo.Size = New Size(170, 59)
 
         PB_consDisplay.Location = New Point(180, 12)
@@ -113,4 +113,5 @@ Public Class Form1
         Me.Show()
 
     End Sub
+
 End Class

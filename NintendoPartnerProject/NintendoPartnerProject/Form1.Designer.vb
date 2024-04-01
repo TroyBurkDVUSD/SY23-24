@@ -118,11 +118,12 @@ Partial Class Form1
         'label_Price
         '
         Me.label_Price.AutoSize = True
-        Me.label_Price.Location = New System.Drawing.Point(679, 185)
+        Me.label_Price.Font = New System.Drawing.Font("Microsoft Sans Serif", 40.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.label_Price.Location = New System.Drawing.Point(316, 244)
         Me.label_Price.Name = "label_Price"
-        Me.label_Price.Size = New System.Drawing.Size(48, 16)
+        Me.label_Price.Size = New System.Drawing.Size(273, 76)
         Me.label_Price.TabIndex = 14
-        Me.label_Price.Text = "Label1"
+        Me.label_Price.Text = "$000.00"
         '
         'button_Checkout
         '

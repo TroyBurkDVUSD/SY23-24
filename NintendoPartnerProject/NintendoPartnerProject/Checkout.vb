@@ -7,4 +7,8 @@ Public Class Checkout
         label_total.Text = (f2.p + f2.p * 0.08).ToString("C2")
     End Sub
     Dim f2 As New Customization
+
+    Private Sub button_lastCheckout_Click(sender As Object, e As EventArgs) Handles button_lastCheckout.Click
+        PictureBox1.Visible = True
+    End Sub
 End Class
