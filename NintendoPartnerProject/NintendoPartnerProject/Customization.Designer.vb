@@ -38,6 +38,7 @@ Partial Class Customization
         Me.nup_HDMI = New System.Windows.Forms.NumericUpDown()
         Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.button_Apply = New System.Windows.Forms.Button()
         CType(Me.nup_addGame, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PB_Console, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.nup_addController, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -167,12 +168,22 @@ Partial Class Customization
         '
         Me.Timer1.Enabled = True
         '
+        'button_Apply
+        '
+        Me.button_Apply.Location = New System.Drawing.Point(718, 154)
+        Me.button_Apply.Name = "button_Apply"
+        Me.button_Apply.Size = New System.Drawing.Size(70, 46)
+        Me.button_Apply.TabIndex = 33
+        Me.button_Apply.Text = "Apply Amount"
+        Me.button_Apply.UseVisualStyleBackColor = True
+        '
         'Customization
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.LemonChiffon
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.button_Apply)
         Me.Controls.Add(Me.nup_HDMI)
         Me.Controls.Add(Me.nup_addController)
         Me.Controls.Add(Me.label_Title)
@@ -210,4 +221,5 @@ Partial Class Customization
     Friend WithEvents nup_HDMI As NumericUpDown
     Friend WithEvents ImageList1 As ImageList
     Friend WithEvents Timer1 As Timer
+    Friend WithEvents button_Apply As Button
 End Class
