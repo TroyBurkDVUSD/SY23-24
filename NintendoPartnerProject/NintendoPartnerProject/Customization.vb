@@ -71,6 +71,8 @@ Public Class Customization
 
     Private Sub button_gotoCheckout_Click(sender As Object, e As EventArgs) Handles button_gotoCheckout.Click
         Me.Hide()
+        Dim f1 As New Form1
+        f1.label_Price.Text = p
     End Sub
 
     Private Sub CB_used_CheckedChanged(sender As Object, e As EventArgs) Handles CB_used.CheckedChanged
@@ -87,6 +89,7 @@ Public Class Customization
 
     Private Sub CB_refurbished_CheckedChanged(sender As Object, e As EventArgs) Handles CB_refurbished.CheckedChanged
         m = p
+        s = p
         p = s * 1.3
         CB_used.Visible = False
         If CB_refurbished.Checked = False Then

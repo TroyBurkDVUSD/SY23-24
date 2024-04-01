@@ -113,4 +113,11 @@ Public Class Form1
         Me.Show()
 
     End Sub
+
+    'Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+    '    Dim f2 As New Customization
+    '    If f2.p <> 0 Then
+    '        label_Price.Text = f2.p
+    '    End If
+    'End Sub
 End Class
