@@ -30,7 +30,6 @@ Partial Class Form1
         Me.button_Customize = New System.Windows.Forms.Button()
         Me.PB_conslogo = New System.Windows.Forms.PictureBox()
         Me.PB_consDisplay = New System.Windows.Forms.PictureBox()
-        Me.label_consDescription = New System.Windows.Forms.Label()
         Me.label_Price = New System.Windows.Forms.Label()
         Me.button_Checkout = New System.Windows.Forms.Button()
         CType(Me.PB_conslogo, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -116,22 +115,10 @@ Partial Class Form1
         Me.PB_consDisplay.TabIndex = 6
         Me.PB_consDisplay.TabStop = False
         '
-        'label_consDescription
-        '
-        Me.label_consDescription.AutoSize = True
-        Me.label_consDescription.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label_consDescription.Location = New System.Drawing.Point(363, 185)
-        Me.label_consDescription.Name = "label_consDescription"
-        Me.label_consDescription.Size = New System.Drawing.Size(437, 120)
-        Me.label_consDescription.TabIndex = 13
-        Me.label_consDescription.Text = "PLACEHOLDER PLACEHOLDER PLACEHOLDER" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "PLACEHOLDER PLACEHOLDER PLACEHOLDER" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "PLACEHO" &
-    "LDER PLACEHOLDER PLACEHOLDER" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "PLACEHOLDER PLACEHOLDER PLACEHOLDER" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "PLACEHOLDER P" &
-    "LACEHOLDER PLACEHOLDER" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
-        '
         'label_Price
         '
         Me.label_Price.AutoSize = True
-        Me.label_Price.Location = New System.Drawing.Point(401, 310)
+        Me.label_Price.Location = New System.Drawing.Point(679, 185)
         Me.label_Price.Name = "label_Price"
         Me.label_Price.Size = New System.Drawing.Size(48, 16)
         Me.label_Price.TabIndex = 14
@@ -156,7 +143,6 @@ Partial Class Form1
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.button_Checkout)
         Me.Controls.Add(Me.label_Price)
-        Me.Controls.Add(Me.label_consDescription)
         Me.Controls.Add(Me.PB_conslogo)
         Me.Controls.Add(Me.button_Customize)
         Me.Controls.Add(Me.PB_consDisplay)
@@ -182,7 +168,6 @@ Partial Class Form1
     Friend WithEvents PB_consDisplay As PictureBox
     Friend WithEvents button_Customize As Button
     Friend WithEvents PB_conslogo As PictureBox
-    Friend WithEvents label_consDescription As Label
     Friend WithEvents label_Price As Label
     Friend WithEvents button_Checkout As Button
 End Class
