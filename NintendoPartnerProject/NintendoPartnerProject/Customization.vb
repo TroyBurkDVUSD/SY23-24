@@ -65,7 +65,7 @@ Public Class Customization
         '    Options()
         '    Timer1.Enabled = False
         'End If
-        "MAKE TIMER CALL UPON OPTIONS ON MONDAY!!!!!!!!!!!!"
+        '"MAKE TIMER CALL UPON OPTIONS ON MONDAY!!!!!!!!!!!!"
 
     End Sub
 
