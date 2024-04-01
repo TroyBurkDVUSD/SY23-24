@@ -22,6 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.button_nes = New System.Windows.Forms.Button()
         Me.button_snes = New System.Windows.Forms.Button()
         Me.button_n64 = New System.Windows.Forms.Button()
@@ -32,6 +33,7 @@ Partial Class Form1
         Me.PB_consDisplay = New System.Windows.Forms.PictureBox()
         Me.label_Price = New System.Windows.Forms.Label()
         Me.button_Checkout = New System.Windows.Forms.Button()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         CType(Me.PB_conslogo, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PB_consDisplay, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -135,6 +137,11 @@ Partial Class Form1
         Me.button_Checkout.UseVisualStyleBackColor = True
         Me.button_Checkout.Visible = False
         '
+        'Timer1
+        '
+        Me.Timer1.Enabled = True
+        Me.Timer1.Interval = 1
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -171,4 +178,5 @@ Partial Class Form1
     Friend WithEvents PB_conslogo As PictureBox
     Friend WithEvents label_Price As Label
     Friend WithEvents button_Checkout As Button
+    Friend WithEvents Timer1 As Timer
 End Class
