@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Form1
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.button_nes = New System.Windows.Forms.Button()
@@ -31,10 +31,9 @@ Partial Class Form1
         Me.button_Customize = New System.Windows.Forms.Button()
         Me.PB_conslogo = New System.Windows.Forms.PictureBox()
         Me.PB_consDisplay = New System.Windows.Forms.PictureBox()
-        Me.label_consPrice = New System.Windows.Forms.Label()
+        Me.label_Price = New System.Windows.Forms.Label()
         Me.button_Checkout = New System.Windows.Forms.Button()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.Label1 = New System.Windows.Forms.Label()
         CType(Me.PB_conslogo, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PB_consDisplay, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -118,15 +117,15 @@ Partial Class Form1
         Me.PB_consDisplay.TabIndex = 6
         Me.PB_consDisplay.TabStop = False
         '
-        'label_consPrice
+        'label_Price
         '
-        Me.label_consPrice.AutoSize = True
-        Me.label_consPrice.Font = New System.Drawing.Font("Microsoft Sans Serif", 40.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label_consPrice.Location = New System.Drawing.Point(187, 244)
-        Me.label_consPrice.Name = "label_consPrice"
-        Me.label_consPrice.Size = New System.Drawing.Size(273, 76)
-        Me.label_consPrice.TabIndex = 14
-        Me.label_consPrice.Text = "$000.00"
+        Me.label_Price.AutoSize = True
+        Me.label_Price.Font = New System.Drawing.Font("Microsoft Sans Serif", 40.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.label_Price.Location = New System.Drawing.Point(297, 244)
+        Me.label_Price.Name = "label_Price"
+        Me.label_Price.Size = New System.Drawing.Size(273, 76)
+        Me.label_Price.TabIndex = 14
+        Me.label_Price.Text = "$000.00"
         '
         'button_Checkout
         '
@@ -143,16 +142,6 @@ Partial Class Form1
         Me.Timer1.Enabled = True
         Me.Timer1.Interval = 1
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 40.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(490, 244)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(273, 76)
-        Me.Label1.TabIndex = 16
-        Me.Label1.Text = "$000.00"
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -160,9 +149,8 @@ Partial Class Form1
         Me.BackgroundImage = Global.NintendoPartnerProject.My.Resources.Resources.hexbackground
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.button_Checkout)
-        Me.Controls.Add(Me.label_consPrice)
+        Me.Controls.Add(Me.label_Price)
         Me.Controls.Add(Me.PB_conslogo)
         Me.Controls.Add(Me.button_Customize)
         Me.Controls.Add(Me.PB_consDisplay)
@@ -188,8 +176,7 @@ Partial Class Form1
     Friend WithEvents PB_consDisplay As PictureBox
     Friend WithEvents button_Customize As Button
     Friend WithEvents PB_conslogo As PictureBox
-    Friend WithEvents label_consPrice As Label
+    Friend WithEvents label_Price As Label
     Friend WithEvents button_Checkout As Button
     Friend WithEvents Timer1 As Timer
-    Friend WithEvents Label1 As Label
 End Class
