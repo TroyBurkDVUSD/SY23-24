@@ -70,9 +70,12 @@ Public Class Customization
     End Sub
 
     Private Sub button_gotoCheckout_Click(sender As Object, e As EventArgs) Handles button_gotoCheckout.Click
+        Dim f3 As New Checkout
+        v = p
+        f3.label_price.Text = v
         Me.Hide()
-        Dim f1 As New Form1
-        f1.label_Price.Text = p
+        f3.ShowDialog()
+        Me.Show()
     End Sub
 
     Private Sub CB_used_CheckedChanged(sender As Object, e As EventArgs) Handles CB_used.CheckedChanged
@@ -158,5 +161,6 @@ Public Class Customization
             label_Price.Text = p.ToString("C2")
         End If
         label_Price.Text = p.ToString("C2")
+        v = p
     End Sub
 End Class

@@ -107,20 +107,12 @@ Public Class Form1
     End Sub
 
     Private Sub button_Checkout_Click(sender As Object, e As EventArgs) Handles button_Checkout.Click
-        Me.Hide()
         Dim f3 As New Checkout
+        v = label_Price.Text
+        f3.label_price.Text = v
+        Me.Hide()
         f3.ShowDialog()
         Me.Show()
-
     End Sub
 
-<<<<<<< HEAD
-=======
-    'Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
-    '    Dim f2 As New Customization
-    '    If f2.p <> 0 Then
-    '        label_Price.Text = f2.p
-    '    End If
-    'End Sub
->>>>>>> main
 End Class

@@ -60,7 +60,7 @@ Partial Class Customization
         Me.button_gotoCheckout.Name = "button_gotoCheckout"
         Me.button_gotoCheckout.Size = New System.Drawing.Size(145, 73)
         Me.button_gotoCheckout.TabIndex = 28
-        Me.button_gotoCheckout.Text = "Return To Main"
+        Me.button_gotoCheckout.Text = "Go to Checkout"
         Me.button_gotoCheckout.UseVisualStyleBackColor = True
         '
         'CB_HDMI

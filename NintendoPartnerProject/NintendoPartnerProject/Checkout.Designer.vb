@@ -110,7 +110,7 @@ Partial Class Checkout
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.NintendoPartnerProject.My.Resources.Resources.thankyousmiley
-        Me.PictureBox1.Location = New System.Drawing.Point(163, -7)
+        Me.PictureBox1.Location = New System.Drawing.Point(144, 12)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(496, 445)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
