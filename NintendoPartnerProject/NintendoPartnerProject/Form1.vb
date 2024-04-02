@@ -1,4 +1,4 @@
-﻿Imports System.Reflection.Emit
+Imports System.Reflection.Emit
 Imports System.Windows
 Imports System.Windows.Forms.DataFormats
 
@@ -7,7 +7,7 @@ Public Class Form1
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim f2 As New Customization
-        label_Price.Text = f2.p
+        label_consPrice.Text = f2.p
     End Sub
 
     Private Sub buttonNes_Click(sender As Object, e As EventArgs) Handles button_nes.Click
@@ -21,7 +21,7 @@ Public Class Form1
         PB_conslogo.Location = New Point(477, 12)
 
         ConsoleSelected = "NES"
-        label_Price.Text = 94.99.ToString("C2")
+        label_consPrice.Text = 94.99.ToString("C2")
 
         button_Customize.Visible = True
         button_Checkout.Visible = True
@@ -38,7 +38,7 @@ Public Class Form1
         PB_conslogo.Location = New Point(467, 12)
 
         ConsoleSelected = "SNES"
-        label_Price.Text = 159.99.ToString("C2")
+        label_consPrice.Text = 159.99.ToString("C2")
 
         button_Customize.Visible = True
         button_Checkout.Visible = True
@@ -55,7 +55,7 @@ Public Class Form1
         PB_conslogo.Location = New Point(423, 12)
 
         ConsoleSelected = "N64"
-        label_Price.Text = 169.99.ToString("C2")
+        label_consPrice.Text = 169.99.ToString("C2")
 
         button_Customize.Visible = True
         button_Checkout.Visible = True
@@ -72,7 +72,7 @@ Public Class Form1
         PB_conslogo.Location = New Point(443, 12)
 
         ConsoleSelected = "GC"
-        label_Price.Text = 129.99.ToString("C2")
+        label_consPrice.Text = 129.99.ToString("C2")
 
         button_Customize.Visible = True
         button_Checkout.Visible = True
@@ -89,7 +89,7 @@ Public Class Form1
         PB_conslogo.Location = New Point(372, 12)
 
         ConsoleSelected = "WII"
-        label_Price.Text = 119.99.ToString("C2")
+        label_consPrice.Text = 119.99.ToString("C2")
 
         button_Customize.Visible = True
         button_Checkout.Visible = True
