@@ -1,10 +1,42 @@
 ﻿body {
-    font-family:Arial;
+    background-color: rgba(255, 253, 218, 1);
+    font-family: "Monaco",Monospace;
 }
 
 a {
-    color: lightSeaGreen;
+    color: rgba(244, 140, 51, 1);
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(249, 206, 115, 1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+    font-size: 20px;
+}
+
+    li a {
+        display: block;
+        color: rgba(255, 86, 22, 1);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        /* Change the link color to #111 (black) on hover */
+        li a:hover {
+            background-color: white;
+            color: black;
+        }
 
 /* CSS HEX */
 --light-yellow: #FFFDDAff;
