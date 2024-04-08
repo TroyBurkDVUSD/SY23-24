@@ -6,6 +6,10 @@
 a {
     color: rgba(244, 140, 51, 1);
 }
+.title{
+    color:aquamarine;
+}
+
 
 ul {
     list-style-type: none;
