@@ -42,6 +42,29 @@ li {
             background-color: white;
             color: black;
         }
+.console{
+    width:200px;
+    height:200px;
+}
+#nes-new {
+    width:200px;
+    height:108.7px;
+}
+#snes-new {
+    width:200px;
+    height:103.8px;
+}
+#gc-new{
+    width:200px;
+    height:112.1px;
+}
+#logo{
+    width:300px;
+    height:75.2px;
+    float:right;
+    margin-left:1200px;
+    position:absolute
+}
 
 /* CSS HEX */
 --light-yellow: #FFFDDAff;
