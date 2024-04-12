@@ -76,13 +76,6 @@ li {
     width:200px;
     height:112.1px;
 }
-#logo{
-    width:300px;
-    height:75.2px;
-    float:right;
-    margin-left:1200px;
-    position:absolute
-}
 .accessories {
     width: 150px;
     height: 150px;
@@ -118,6 +111,17 @@ li {
 #wii-controller{
     width:50px;
     height:auto
+}
+.page-2{
+    text-align:center
+}
+.bulk{
+    margin-left:25px;
+    margin-right:25px;
+}
+hz{
+    border:dashed;
+    border
 }
                 /* CSS HEX */
                 --light-yellow: #FFFDDAff;
