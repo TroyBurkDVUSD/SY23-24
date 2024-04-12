@@ -24,6 +24,16 @@ a {
     width: 100%;
 }
 
+.Logo {
+    height: 45px;
+    width: 200px;
+    position: fixed;
+    top: 14%;
+    left: 96%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+
 li {
     float: left;
     font-size: 20px;
