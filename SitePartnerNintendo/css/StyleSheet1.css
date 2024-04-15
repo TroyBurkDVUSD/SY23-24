@@ -107,10 +107,14 @@ li {
     width:150px;
     height:115.7px;
 }
-                
-#wii-controller{
-    width:50px;
-    height:auto
+
+#wii-controller {
+    width: 50px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 .page-2{
     text-align:center
@@ -123,43 +127,4 @@ hz{
     border:dashed;
     border
 }
-                /* CSS HEX */
-                --light-yellow: #FFFDDAff;
-                --ut-orange: #F48C33ff;
-                --jasmine: #F9CE73ff;
-                --giants-orange: #FF5616ff;
-                --brown: #8F5820ff;
-                /* CSS HSL */
-                --light-yellow: hsla(57, 100%, 93%, 1);
-                --ut-orange: hsla(28, 90%, 58%, 1);
-                --jasmine: hsla(41, 92%, 71%, 1);
-                --giants-orange: hsla(16, 100%, 54%, 1);
-                --brown: hsla(30, 63%, 34%, 1);
-                /* SCSS HEX */
-                $light-yellow: #FFFDDAff;
-                $ut-orange: #F48C33ff;
-                $jasmine: #F9CE73ff;
-                $giants-orange: #FF5616ff;
-                $brown: #8F5820ff;
-                /* SCSS HSL */
-                $light-yellow: hsla(57, 100%, 93%, 1);
-                $ut-orange: hsla(28, 90%, 58%, 1);
-                $jasmine: hsla(41, 92%, 71%, 1);
-                $giants-orange: hsla(16, 100%, 54%, 1);
-                $brown: hsla(30, 63%, 34%, 1);
-                /* SCSS RGB */
-                $light-yellow: rgba(255, 253, 218, 1);
-                $ut-orange: rgba(244, 140, 51, 1);
-                $jasmine: rgba(249, 206, 115, 1);
-                $giants-orange: rgba(255, 86, 22, 1);
-                $brown: rgba(143, 88, 32, 1);
-                /* SCSS Gradient */
-                $gradient-top: linear-gradient(0deg, #FFFDDAff, #F48C33ff, #F9CE73ff, #FF5616ff, #8F5820ff);
-                $gradient-right: linear-gradient(90deg, #FFFDDAff, #F48C33ff, #F9CE73ff, #FF5616ff, #8F5820ff);
-                $gradient-bottom: linear-gradient(180deg, #FFFDDAff, #F48C33ff, #F9CE73ff, #FF5616ff, #8F5820ff);
-                $gradient-left: linear-gradient(270deg, #FFFDDAff, #F48C33ff, #F9CE73ff, #FF5616ff, #8F5820ff);
-                $gradient-top-right: linear-gradient(45deg, #FFFDDAff, #F48C33ff, #F9CE73ff, #FF5616ff, #8F5820ff);
-                $gradient-bottom-right: linear-gradient(135deg, #FFFDDAff, #F48C33ff, #F9CE73ff, #FF5616ff, #8F5820ff);
-                $gradient-top-left: linear-gradient(225deg, #FFFDDAff, #F48C33ff, #F9CE73ff, #FF5616ff, #8F5820ff);
-                $gradient-bottom-left: linear-gradient(315deg, #FFFDDAff, #F48C33ff, #F9CE73ff, #FF5616ff, #8F5820ff);
-                $gradient-radial: radial-gradient(#FFFDDAff, #F48C33ff, #F9CE73ff, #FF5616ff, #8F5820ff);
+              
