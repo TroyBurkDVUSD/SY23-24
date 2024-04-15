@@ -121,8 +121,38 @@ li {
 }
 hz{
     border:dashed;
-    border
+    border-block-start:20px;
 }
+h3{
+    color:darkseagreen;
+    display:inline-block;
+}
+#life{
+    float:right;
+    margin-right:300px;
+}
+#recycle{
+    float:left;
+    margin-left:300px;
+}
+#recycle-text{
+    float:left;
+    margin-left:120px;
+    margin-right:950px;
+    text-align:center;
+    display:inline-block;
+}
+#life-text{
+    float:right;
+    margin-right:120px;
+    margin-left:950px;
+    text-align:center;
+    display:inline-block;
+}
+.details {
+    display: inline-block;
+}
+
                 /* CSS HEX */
                 --light-yellow: #FFFDDAff;
                 --ut-orange: #F48C33ff;
