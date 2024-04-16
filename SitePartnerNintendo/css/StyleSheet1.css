@@ -118,6 +118,7 @@ li {
 .bulk{
     margin-left:25px;
     margin-right:25px;
+    text-align:center
 }
 hz{
     border:dashed;
@@ -129,28 +130,35 @@ h3{
 }
 #life{
     float:right;
-    margin-right:300px;
+    margin-right:18.29%;
 }
 #recycle{
     float:left;
-    margin-left:300px;
+    margin-left:18.29%;
 }
-#recycle-text{
-    float:left;
-    margin-left:120px;
-    margin-right:950px;
-    text-align:center;
-    display:inline-block;
+#recycle-text {
+    float: left;
+    text-align: center;
+    width: 40%;
+    margin-right: 60%;
+    display: flex;
+    background-color: #FCFCFC;
+    border-block-color: #FCFCFC;
+    border-width: 100px;
 }
-#life-text{
-    float:right;
-    margin-right:120px;
-    margin-left:950px;
-    text-align:center;
-    display:inline-block;
+#life-text {
+    float: right;
+    text-align: center;
+    width: 40%;
+    display: flex;
+    background-image: url("../img/white color.png");
+    background-size: 1000px 1000px;
 }
 .details {
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    width: 70.9%;
+    margin-left:14%;
 }
 
                 /* CSS HEX */
